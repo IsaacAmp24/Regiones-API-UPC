@@ -1,0 +1,19 @@
+<div class="tittle-cards">
+    <p>List of countries in América</p>
+</div>
+
+<div class="card-container" *ngFor ="let country of countries">
+  <mat-card>
+    <mat-card-header>
+      <div mat-card-avatar class="country-flag" [style.background-image]="'url(' + country.flag + ')'"></div>
+      <mat-card-title>Pais: {{country.name}}</mat-card-title>
+      <mat-card-subtitle>Capital: {{country.capital}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{country.flag}}" alt="Bandera de {{country.name}}">
+    <mat-card-content>
+      <p>alphaCode: {{country.alpha3Code}}</p>
+      <p>area: {{country.area | number }}</p>
+      <p>population: {{country.population | number }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

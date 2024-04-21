@@ -1,0 +1,56 @@
+.tittle-cards {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+mat-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+mat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+mat-card img.mat-card-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.country-flag {
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+mat-card-title,
+mat-card-subtitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+mat-card-content p {
+  margin: 4px 0;
+  color: #333;
+}
+
+.mat-card-content {
+  padding: 15px;
+}
