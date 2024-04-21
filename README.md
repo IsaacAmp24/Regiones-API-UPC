@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Author
 
 - Linkedin :
-  - linkedin.com/in/josé-carlos-isaac-ampudia-flores-6b7899274)
+  - linkedin.com/in/josé-carlos-isaac-ampudia-flores-6b7899274
 
 ### API
 
